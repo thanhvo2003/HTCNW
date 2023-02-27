@@ -64,3 +64,19 @@ a {
 .navbar .nav-item:hover a {
     background-color: black;
 }
+
+/* main content */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* sidebar */
+.sidebar {
+    position: sticky;
+    top: 51px;
+    width: 25%;
+    background-color: #ececec;
+    height: calc(100vh - 51px);
+    overflow-y: hidden;
+}
