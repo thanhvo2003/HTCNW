@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product listing</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- font awesome -->
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css" rel="stylesheet" type="text/css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-wrap">
+                <nav class="navbar">
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="#">Shop</a></li>
+                        <li class="nav-item"><a href="#">Offers</a></li>
+                        <li class="nav-item"><a href="#">Our story</a></li>
+                        <li class="nav-item"><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+                <div class="logo-wrap">
+                    <a href="/">
+                        <img class="logo" src="./images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="nav-action">
+                    <div class="search-wrap action-item">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="search-input" type="text" placeholder="Search product...">
+                    </div>
+                    <a class="action-item" href="#">
+                        <i class="fa-duotone fa-cart-shopping"></i>
+                        Cart (0)
+                    </a>
+                    <a class="action-item" href="#">
+                        <i class="fa-duotone fa-user"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- background hero -->
+        <div class="background-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Gift yout skin</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga esse perferendis vel neque error fugiat enim, aperiam facilis perspiciatis laborum aut.</p>
+                </div>    
+            </div>
+        </div>
+        <div class="container">
+            <!-- product -->
+            <div class="product-container">
+                <!-- filter bar -->
+                <div class="filter-bar">
+                    <ul class="product-type">
+                        <li class="product-type-btn active"><a href="#">All product</a></li>
+                        <li class="product-type-btn"><a href="#">Face</a></li>
+                        <li class="product-type-btn"><a href="#">Body</a></li>
+                    </ul>
+                </div>
+                <div class="search-filter">
+                    <div class="search-wrap action-item">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="search-input border-b-style" type="text" placeholder="Search product...">
+                    </div>
+                    <select class="sort-select">
+                        <option value="">Name</option>
+                        <option value="">Price asc</option>
+                        <option value="">Price desc</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
