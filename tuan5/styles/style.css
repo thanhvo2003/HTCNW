@@ -137,7 +137,7 @@ ul, li {
 
 .products {
     display: flex;
-    margin: 0 -16px;
+    margin: 0 -8px;
     margin-bottom: 32px;
 }
 
@@ -159,7 +159,7 @@ ul, li {
 }
 
 .product-card {
-    padding: 16px;
+    padding: 8px;
 }
 
 .product-card:not(.full) {
@@ -169,6 +169,7 @@ ul, li {
 .product-details {
     display: flex;
     margin: 0 -16px;
+    margin-bottom: 32px;
     border-bottom: solid 1px rgb(240, 240, 240);
     padding-bottom: 32px;
 }
@@ -221,4 +222,24 @@ ul, li {
     border: solid 1px cornflowerblue;
     color: cornflowerblue;
     background-color: white;
+}
+
+.rating-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+    margin-bottom: 32px;
+    border-bottom: solid 1px rgb(240, 240, 240);
+    padding-bottom: 32px;
+}
+
+.rating-list .rating-card {
+    width: 50%;
+    padding: 24px 16px;
+}
+
+.rating-list .rating-card-head {
+    display: flex;
+    align-items: start;
+    margin-bottom: 8px;
 }
